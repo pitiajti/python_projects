@@ -4,6 +4,7 @@ input_values = [1, 2, 3, 4, 5]
 squares = [_**2 for _ in range(1,6)]
 print(squares)
 
+plt.style.use('seaborn')
 fig, ax = plt.subplots()
 ax.plot(input_values, squares, linewidth=3)
 
